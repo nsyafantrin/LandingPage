@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit";
+    color: rgb(46, 44, 44);
+}
+
+.orangecolor {
+    color: #C68313;
+}
+
+section, article, aside, footer, header, nav {
+    display: block;
+}
+
+header {
+    display: flex;
+    height: 50px;
+    background-color: bisque;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+
+.heading {
+    display: flex;
+    gap: 16px;
+    padding-left: 20px;
+}
+
+.heading h1 {
+    font-weight: 500;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+    list-style-type: none;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+}
+
+button {
+    margin-right: 20px;
+    background-color: #C68313;
+    padding: 10px 16px;
+    border-radius: 8px;
+    border: #C68313;
+    color: white;
+}
