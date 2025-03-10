@@ -16,10 +16,12 @@ section, article, aside, footer, header, nav {
     display: block;
 }
 
+/* header  */
+
 header {
     display: flex;
     height: 50px;
-    background-color: bisque;
+    /* background-color: bisque; */
     justify-content: space-between;
     padding: 10px;
     align-items: center;
@@ -53,4 +55,37 @@ button {
     border-radius: 8px;
     border: #C68313;
     color: white;
+    font-size: 15px;
+}
+
+
+/* Section Hero */
+.section-hero {
+    height: 800px;
+    background-color: aliceblue;
+}
+
+.sub-section-hero {
+    display: flex;
+    background-color: antiquewhite;
+}
+
+.hero-con1 {
+    padding-top: 140px;
+    padding-left: 100px;
+}
+
+.high-growth {
+    background-color: #ead1a8;
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.simplifyGrowth {
+    
 }
