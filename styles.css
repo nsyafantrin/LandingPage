@@ -60,8 +60,8 @@ button {
 
 
 /* Section Hero */
-.section-hero {
-    height: 800px;
+.main-section-hero {
+    height: 700px;
     /* background-color: rgb(160, 181, 199); */
 }
 
@@ -121,7 +121,7 @@ button {
     display: flex;
     flex-direction: column;
     padding-left: 100px;
-    height: 200px;
+    height: 100px;
     justify-content: flex-end;
 }
 
@@ -135,4 +135,16 @@ button {
 .img-partners {
     display: flex;
     gap: 40px;
+}
+
+/* SECTION SERVICES */
+
+.section-service {
+    height: 700px;
+    background-color: rgb(160, 181, 199);
+    display: flex;
+}
+
+.service-images-astro {
+    width: 500px;
 }
