@@ -143,8 +143,26 @@ button {
     height: 700px;
     background-color: rgb(160, 181, 199);
     display: flex;
+    justify-content: center;
+    gap: 80px;
+    padding: 80px;
 }
 
+
 .service-images-astro {
-    width: 500px;
+    width: 400px;
+    padding-top: 120px;
+}
+
+.our-service {
+    background-color: #ead1a8;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.service {
 }
