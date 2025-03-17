@@ -98,7 +98,7 @@ button {
  }
 
 .growthSpace {
-    font-size: 70px;
+    font-size: 60px;
     font-weight: 600;
 }
 
@@ -193,4 +193,33 @@ button {
 .icon-text p {
     font-size: 20px;
     font-weight: 500;
+}
+
+.section-info {
+    height: 830px;
+    /* background-color: rgb(160, 181, 199); */
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 80px;
+}
+
+.info-world {
+    font-size: 120px;
+    font-weight: 600;
+    margin-top: -50px;
+}
+
+.info {
+    width: 500px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.info-images {
+    margin-right: 100px;
+}
+
+.texthero {
+    font-weight: 450;
 }
