@@ -200,6 +200,7 @@ button {
     /* background-color: rgb(160, 181, 199); */
     display: flex;
     justify-content: space-between;
+    align-items: center;
     gap: 20px;
     padding: 80px;
 }
@@ -213,7 +214,7 @@ button {
 .info {
     width: 500px;
     margin-left: 100px;
-    margin-top: 100px;
+    /* margin-top: 100px; */
 }
 
 .info-images {
