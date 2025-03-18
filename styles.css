@@ -195,6 +195,8 @@ button {
     font-weight: 500;
 }
 
+/* SECTION INFO */
+
 .section-info {
     height: 830px;
     /* background-color: rgb(160, 181, 199); */
@@ -224,3 +226,66 @@ button {
 .texthero {
     font-weight: 450;
 }
+
+/* SECTION REVIEW */
+
+.section-review {
+    height: 830px;
+    /* background-color: rgb(160, 181, 199); */
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 80px;
+}
+
+.review {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    align-items: center;
+}
+
+.our-review {
+    margin-bottom: 40px;
+    background-color: #ead1a8;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.simplifyReview {
+    font-size: 60px;
+    margin-bottom: 40px;
+}
+
+.textreview {
+    font-size: 18px;
+    text-align: center;
+    width: 600px;
+    margin-bottom: 40px;
+}
+
+.boxreview{
+    display: flex;
+    gap: 20px;
+}
+
+.boxreviewsmall {
+    border: 3px solid #C68313;
+    padding: 15px;
+    border-radius: 20px;
+    width: 280px;
+    height: 200px;
+}
+
+.boxreviewsmall-text p{
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
